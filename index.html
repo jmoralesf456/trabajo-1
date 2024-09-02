@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs en HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .input-group input, .input-group select, .input-group textarea, .input-group button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inputs en HTML</h1>
+    <p>Los inputs en HTML permiten al usuario interactuar con la página web a través de formularios. Estos inputs pueden variar en función del tipo de dato que se requiere, como texto, contraseñas, números, fechas, archivos, entre otros. A continuación, se muestran ejemplos de todos los tipos de inputs y botones disponibles en HTML:</p>
+    
+    <div class="input-group">
+        <label for="text">Texto:</label>
+        <input type="text" id="text" placeholder="Ingresa texto">
+    </div>
+
+    <div class="input-group">
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" placeholder="Ingresa contraseña">
+    </div>
+
+    <div class="input-group">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" placeholder="Ingresa tu email">
+    </div>
+
+    <div class="input-group">
+        <label for="number">Número:</label>
+        <input type="number" id="number" placeholder="Ingresa un número">
+    </div>
+
+    <div class="input-group">
+        <label for="tel">Teléfono:</label>
+        <input type="tel" id="tel" placeholder="Ingresa tu número de teléfono">
+    </div>
+
+    <div class="input-group">
+        <label for="date">Fecha:</label>
+        <input type="date" id="date">
+    </div>
+
+    <div class="input-group">
+        <label for="time">Hora:</label>
+        <input type="time" id="time">
+    </div>
+
+    <div class="input-group">
+        <label for="datetime-local">Fecha y Hora:</label>
+        <input type="datetime-local" id="datetime-local">
+    </div>
+
+    <div class="input-group">
+        <label for="color">Color:</label>
+        <input type="color" id="color">
+    </div>
+
+    <div class="input-group">
+        <label for="range">Rango:</label>
+        <input type="range" id="range" min="0" max="100">
+    </div>
+
+    <div class="input-group">
+        <label for="file">Archivo:</label>
+        <input type="file" id="file">
+    </div>
+
+    <div class="input-group">
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" id="checkbox"> Opción 1
+    </div>
+
+    <div class="input-group">
+        <label for="radio">Radio:</label>
+        <input type="radio" name="radio-group" id="radio1"> Opción 1
+        <input type="radio" name="radio-group" id="radio2"> Opción 2
+    </div>
+
+    <div class="input-group">
+        <label for="select">Seleccionar:</label>
+        <select id="select">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3">Opción 3</option>
+        </select>
+    </div>
+
+    <div class="input-group">
+        <label for="textarea">Área de texto:</label>
+        <textarea id="textarea" rows="4" placeholder="Ingresa texto"></textarea>
+    </div>
+
+    <div class="input-group">
+        <label for="button">Botón:</label>
+        <button type="button" id="button">Clic aquí</button>
+    </div>
+
+    <div class="input-group">
+        <label for="submit">Enviar:</label>
+        <input type="submit" id="submit" value="Enviar">
+    </div>
+
+    <div class="input-group">
+        <label for="reset">Reiniciar:</label>
+        <input type="reset" id="reset" value="Reiniciar">
+    </div>
+
+    <div class="input-group">
+        <label for="hidden">Oculto:</label>
+        <input type="hidden" id="hidden" value="valor_oculto">
+    </div>
+
+</body>
+</html>
